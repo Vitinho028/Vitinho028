@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 460" role="img" aria-labelledby="title desc">
+  <title id="title">Vitor Hugo — Data Analyst</title>
+  <desc id="desc">Interface futurista. Estudante de ADS com foco em análise de dados. Sistema online. Terminal com frases alternadas sobre dados e aprendizado.</desc>
+
+  <defs>
+    <linearGradient id="edge">
+      <stop stop-color="#00D9FF"></stop>
+      <stop offset="1" stop-color="#8B5CF6"></stop>
+    </linearGradient>
+
+    <radialGradient id="halo">
+      <stop stop-color="#00D9FF" stop-opacity=".12"></stop>
+      <stop offset="1" stop-color="#00D9FF" stop-opacity="0"></stop>
+    </radialGradient>
+
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#94A3B8" stroke-opacity=".06"></path>
+    </pattern>
+
+    <clipPath id="typing">
+      <rect x="62" y="401" width="750" height="32">
+        <animate attributeName="width" values="0;25;50;75;100;125;150;175;200;225;250;275;300;325;350;375;400;425;450;475;500;525;550;575;600;625;650;675;700;725;750;750;750;750;750;750;750;750;750;750;750;0;0;0" dur="5s" repeatCount="indefinite" calcMode="discrete"></animate>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <style>
+    text {
+      font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+    }
+
+    .terminal-static {
+      display: none;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .motion, .terminal-animated {
+        display: none;
+      }
+
+      .terminal-static {
+        display: inline;
+      }
+    }
+  </style>
+
+  <rect width="880" height="460" rx="20" fill="#080B12"></rect>
+
+  <rect x="1" y="1" width="878" height="458" rx="19" fill="none" stroke="url(#edge)" stroke-opacity=".65"></rect>
+
+  <path d="M24 61V24H61 M819 24H856V61 M24 301V338H61 M819 338H856V301" fill="none" stroke="#00D9FF" stroke-width="2"></path>
+
+  <rect x="25" y="25" width="830" height="313" fill="url(#grid)"></rect>
+  <ellipse cx="713" cy="179" rx="170" ry="150" fill="url(#halo)"></ellipse>
+
+  <g fill="none" stroke="#00D9FF" stroke-opacity=".3">
+    <path d="M499 91H547L575 119H620 M522 267H574L603 238H639 M767 91H813V129 M764 270H813V234"></path>
+    <circle cx="715" cy="180" r="89"></circle>
+    <circle cx="715" cy="180" r="68" stroke-dasharray="2 9"></circle>
+    <path d="M609 180H640 M790 180H821 M715 74V105 M715 255V286"></path>
+  </g>
+
+  <circle class="motion" cx="715" cy="180" r="89" fill="none" stroke="#00D9FF" stroke-width="2" stroke-dasharray="75 485">
+    <animateTransform attributeName="transform" type="rotate" from="0 715 180" to="360 715 180" dur="24s" repeatCount="indefinite"></animateTransform>
+  </circle>
+
+  <path d="M674 203V175 M694 203V157 M715 203V181 M736 203V143 M756 203V163" fill="none" stroke="url(#edge)" stroke-width="9"></path>
+
+  <text x="715" y="234" text-anchor="middle" fill="#94A3B8" font-size="12" letter-spacing="3">DATA CORE</text>
+
+  <text x="42" y="56" fill="#00D9FF" font-size="15" letter-spacing="2">SYSTEM INITIALIZATION</text>
+
+  <circle cx="731" cy="51" r="4" fill="#00FFFF"></circle>
+
+  <text x="745" y="56" fill="#94A3B8" font-size="13">ONLINE</text>
+
+  <text x="42" y="103" fill="#94A3B8" font-size="15">
+    &gt; INITIALIZING SYSTEM...
+  </text>
+
+  <text x="39" y="172" fill="#F8FAFC" font-family="system-ui, sans-serif" font-weight="800" font-size="60" letter-spacing="-2">VITOR HUGO</text>
+
+  <text x="43" y="208" fill="#00D9FF" font-size="22" letter-spacing="5">DATA ANALYST</text>
+
+  <text x="43" y="245" fill="#94A3B8" font-size="17">
+    Estudante de ADS · Em formação
+  </text>
+
+  <path d="M43 269H490" stroke="url(#edge)" stroke-opacity=".5"></path>
+
+  <text x="43" y="299" fill="#94A3B8" font-size="14">
+    &gt; USER: VITOR HUGO
+  </text>
+
+  <text x="43" y="321" fill="#00FFFF" font-size="14">
+    &gt; ACCESS GRANTED
+  </text>
+
+  <path class="motion" d="M43 269H160" stroke="#00FFFF" stroke-width="2">
+    <animateTransform attributeName="transform" type="translate" values="0 0;330 0;0 0" dur="9s" repeatCount="indefinite"></animateTransform>
+  </path>
+
+  <path d="M24 359H856" stroke="#94A3B8" stroke-opacity=".2"></path>
+
+  <text x="30" y="386" fill="#94A3B8" font-size="12" letter-spacing="2">LIVE TERMINAL / @vitinho028</text>
+
+  <text x="30" y="425" fill="#8B5CF6" font-size="22">&gt;</text>
+
+  <g class="terminal-animated">
+    <g class="static-phrase" clip-path="url(#typing)">
+      <text x="62" y="425" fill="#00D9FF" font-size="20" opacity="1">Data Analytics Enthusiast
+        <animate class="motion" attributeName="opacity" values="1;0;0;0;0;1" keyTimes="0;.2;.4;.6;.8;1" dur="25s" repeatCount="indefinite" calcMode="discrete"></animate>
+      </text>
+    </g>
+
+    <g class="phrase" clip-path="url(#typing)">
+      <text x="62" y="425" fill="#00D9FF" font-size="20" opacity="0">Python &amp; SQL Developer
+        <animate class="motion" attributeName="opacity" values="0;1;0;0;0;0" keyTimes="0;.2;.4;.6;.8;1" dur="25s" repeatCount="indefinite" calcMode="discrete"></animate>
+      </text>
+    </g>
+
+    <g class="phrase" clip-path="url(#typing)">
+      <text x="62" y="425" fill="#00D9FF" font-size="20" opacity="0">Transforming Data Into Insights
+        <animate class="motion" attributeName="opacity" values="0;0;1;0;0;0" keyTimes="0;.2;.4;.6;.8;1" dur="25s" repeatCount="indefinite" calcMode="discrete"></animate>
+      </text>
+    </g>
+
+    <g class="phrase" clip-path="url(#typing)">
+      <text x="62" y="425" fill="#00D9FF" font-size="20" opacity="0">Exploring Business Intelligence
+        <animate class="motion" attributeName="opacity" values="0;0;0;1;0;0" keyTimes="0;.2;.4;.6;.8;1" dur="25s" repeatCount="indefinite" calcMode="discrete"></animate>
+      </text>
+    </g>
+
+    <g class="phrase" clip-path="url(#typing)">
+      <text x="62" y="425" fill="#00D9FF" font-size="20" opacity="0">Building a Data-Driven Future
+        <animate class="motion" attributeName="opacity" values="0;0;0;0;1;0" keyTimes="0;.2;.4;.6;.8;1" dur="25s" repeatCount="indefinite" calcMode="discrete"></animate>
+      </text>
+    </g>
+  </g>
+
+  <text class="terminal-static" x="62" y="425" fill="#00D9FF" font-size="20">Data Analytics Enthusiast</text>
+</svg>
